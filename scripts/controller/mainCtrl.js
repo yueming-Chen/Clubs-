@@ -1,11 +1,12 @@
 $(document).ready(function() {
-      $('.sign').hide();
-      console.log('work');
-      		
+    $('.ui-view').load("view/clubs.html");
 });
 var Href = function(name){
-      	$('.ui-view').hide(500).load("view/" + name.id + ".html").show(500);
+	$('.ui-view').hide(1);
+    $('.ui-view').load("view/" + name.id + ".html").show(100);
 }
+
+
 
 
 

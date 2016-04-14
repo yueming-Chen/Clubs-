@@ -5,11 +5,25 @@
 	padding-right: 25px; 
 }
 
+
 .title{
 	font-size: 50px;
 	font-family: 'Julius Sans One', sans-serif;
 	display: flex;
 	justify-content: center;
+	color: black;
+	 
+}
+
+.title a{
+	text-decoration:none;
+	color: black;
+	cursor: pointer;
+}
+
+.title a:visited{
+	text-decoration : none;
+	color: black;
 }
 
 .divider{
@@ -102,6 +116,7 @@ section{
 
  footer{
  	float: left;
+ 	
  	width: 100%;
  	display: block;
  	background-color: black;
@@ -146,4 +161,45 @@ footer li{
  .clear{
  	clear: both;
  }
+
+ /*club list*/
+
+ .select{
+ 	color: gray;
+ }
+
+section .listTitle{
+ 	font-size: 30px;
+	font-family: 'Julius Sans One', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	margin:0;
+	margin-top: 10px;
+	display: none;
+ }
+
+ section .listTitle li:hover a{
+ 	color: gray;
+ }
+
+ section .list:hover{
+ 	color: gray;
+ 	cursor: pointer;
+ }
+ /*clubDetail*/
+section .DetailSubTitle{
+	padding-top: 10px;
+ 	font-size: 40px;
+	font-family: 'Julius Sans One', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+ /*activity*/
+ .actContext{
+ }
+
+
+
+
+
 
