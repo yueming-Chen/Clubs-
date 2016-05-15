@@ -509,5 +509,8 @@ section .contactContent .contactParagram a:hover{
         width: 100%;
         height: 100%;
     }
+    #clubTitle,#actTitle{
+        padding: 1px;
+    }
 }
 
