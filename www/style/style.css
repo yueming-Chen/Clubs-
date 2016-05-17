@@ -401,14 +401,93 @@ section .contactContent .contactParagram a:hover{
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (max-width: 769px){
 
 /* 如果使用者視窗寬度介於 768px ~ 992px，將字體大小變為 30px*/
-
+    body{
+        padding: 0px;
+    }
     .title{
-     font-size: 50px;
+     font-size: 40px;
+    }
+    nav ol{
+        margin: 0;
+        padding:0;
     }
 
+    nav li{
+        font-size: 20px;
+        margin-left:20px; 
+    }
+    nav li:hover{
+        background-color: gray;
+        border-radius: 0;
+    }
+
+    .ui-view{
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    section .introduce{
+        margin-top:320px;
+        margin-bottom: 320px;
+        text-align: center;
+    }
+
+    section .DetailImg{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    section .gallery,section .gallery .left,section .gallery .right{
+        float: none;
+    }
+
+    .gallery .discriptionTitle{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .gallery .discription{
+        font-size: 30px;
+    }
+
+    section .list{
+       float: left;
+       display: block;
+    }
+
+
+    section .listTitle{
+        padding: 0;
+        width: 100%;
+    }
+
+    section .listTitle li{
+        font-size: 30px;
+        margin:10px;
+        background: #8DAA9D;
+        width: 100%;
+    }
+
+    section .listTitle{
+        font-size: 50px;
+        display: block;
+    }
+
+    section .DetailSubTitle{
+        font-size: 30px;
+    }
+
+    .show-small{
+        width: 100%;
+        height: 100%;
+    }
+    #clubTitle,#actTitle{
+        padding: 1px;
+    }
 }
 
 @media screen and (max-width: 480px) {
